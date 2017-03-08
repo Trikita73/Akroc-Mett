@@ -32,6 +32,8 @@
 	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
 	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
 	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+	<link rel="stylesheet" href="css/main.css" />
+	<link rel="stylesheet" href="css/media.css" />
 
 </head>
 
@@ -420,33 +422,6 @@
 	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
 	<script src="libs/respond/respond.min.js"></script>
 	<![endif]-->
-
-	<!-- Load CSS -->
-	<script>
-	
-		//function loadCSS(hf) {
-			//var ms=document.createElement("link");ms.rel="stylesheet";
-			//ms.href=hf;document.getElementsByTagName("head")[0].appendChild(ms);
-		//}
-		//loadCSS("libs/animate/animate.css"); //Load Libs CSS: Animate CSS
-		//loadCSS("_header.css");              //Header Styles (compress & paste to header after release)
-		//loadCSS("main.css");                //User Styles: Main
-		//loadCSS("media.css");               //User Styles: Media
-		//loadCSS("fonts.css");
-		
-	</script>
-
-	<!-- Load CSS compiled without Bootstrap & Header styles (after release) -->
-	<script>
-		var ms=document.createElement("link");ms.rel="stylesheet";
-		ms.href="css/main.css";document.getElementsByTagName("head")[0].appendChild(ms);
-		var ms=document.createElement("link");ms.rel="stylesheet";
-		ms.href="css/media.css";document.getElementsByTagName("head")[0].appendChild(ms);
-	</script>
-
-	<!-- Load CSS compiled without Bootstrap & Header styles (after release) -->
-	<script>var ms=document.createElement("link");ms.rel="stylesheet";
-		// ms.href="compiled.min.css";document.getElementsByTagName("head")[0].appendChild(ms);</script>
 
 	<!-- Load Scripts -->
 	<script>var scr = {"scripts":[

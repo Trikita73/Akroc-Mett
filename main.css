@@ -1,4 +1,4 @@
-*::-webkit-input-placeholder {
+::-webkit-input-placeholder {
 	color: #666;
 	opacity: 1;
 }
@@ -136,7 +136,6 @@ h1.lead, h2.lead, h3.lead, h4.lead, h5.lead, h6.lead, .h1.lead, .h2.lead, .h3.le
 }
 .box_articles .panel-body > h4 {
 	margin-bottom: 0;
-	text-align: center;
 }
 .aside_carousel .carousel-inner {
 	margin-top: 10px;

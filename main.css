@@ -23,46 +23,44 @@ body input:required:valid,
 body textarea:required:valid {
 	
 }
-
-
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+	font-family: "OpenSansBold", sans-serif;
+}
+h1.lead, h2.lead, h3.lead, h4.lead, h5.lead, h6.lead, .h1.lead, .h2.lead, .h3.lead, .h4.lead, .h5.lead, .h6.lead {
+	font-family: "OpenSansRegular", sans-serif;
+	text-transform: none;
+}
 body {
 min-width:320px;
 position:relative;
 font-family:"OpenSansRegular",sans-serif;
 overflow-x:hidden
 }
-
 .hidden {
 display:none
 }
-
 .navbar-brand {
 padding:0;
 position:relative;
 top:5px;
 z-index:2
 }
-
 .main_head .lead {
 color:#fff;
 font-family:"OpenSansBold",sans-serif
 }
-
 .phone_top {
 top:12px;
 position:relative;
 text-align:center
 }
-
 .main_head > .navbar {
 margin-bottom:0;
 z-index:20
 }
-
 .carousel-inner > .item > img {
 position:relative
 }
-
 .carousel-inner .overlay {
 content:"";
 position:absolute;
@@ -73,12 +71,10 @@ left:0;
 z-index:1;
 background-color:rgba(36,36,36,.7)
 }
-
 .main_head ul.navbar-nav {
 position:relative;
 z-index:2
 }
-
 .slide_img {
 position:absolute;
 top:0;
@@ -88,40 +84,26 @@ height:100%;
 -webkit-background-size:cover;
 background-size:cover
 }
-
 .carousel-control {
 z-index:10
 }
-
 .carousel-inner .h1 {
 font-family:"OpenSansBold",sans-serif;
 line-height:1.5;
 margin-top:0
 }
-
 .carousel-caption {
 left:12%;
 right:12%
 }
-
 .carousel .item {
 min-height:420px
 }
-
 .carousel-indicators {
 bottom:5px
 }
-
 .carousel .item .container {
 position:relative
-}
-
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-	font-family: "OpenSansBold", sans-serif;
-}
-h1.lead, h2.lead, h3.lead, h4.lead, h5.lead, h6.lead, .h1.lead, .h2.lead, .h3.lead, .h4.lead, .h5.lead, .h6.lead {
-	font-family: "OpenSansRegular", sans-serif;
-	text-transform: none;
 }
 .content h1, .content .h1 {
 	font-family: "OpenSansRegular", sans-serif;

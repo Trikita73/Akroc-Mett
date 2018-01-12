@@ -381,6 +381,7 @@ article img {
 	font-weight: normal;
 	border-bottom: #fff 1px dotted;
 	color: #fff;
+	margin-left: 40px;
 }
 .callback:hover {
 	border-bottom: #f27937 1px dotted;
